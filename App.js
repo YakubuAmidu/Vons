@@ -120,25 +120,36 @@ import { View, Text, TextInput, StyleSheet, Image } from 'react-native';
 const App = () => {
   return (
     <View style={styles.viewStyle1}>
+    <View style={styles.viewStyle2}>
     <Image style={styles.imageStyle1} source={require("./assets/Tomatoes1.jpg")}/>
+    <TextInput placeholder="Search for product" type="text" />
     <Text>App</Text>
+    </View>
     </View>
     );
 };
 
 const styles = StyleSheet.create({
-  imageStyle1: {
-      // height: '30%',
-      // justifyContent: 'center',
-      justifyContent: 'center',
-        alignItems: 'center',
-        width: 450,
-        height: 300
-  },
+  // imageStyle1: {
+  //     justifyContent: 'center',
+  //       alignItems: 'center',
+  //       width: 450,
+  //       height: 300
+  // },
   viewStyle1: {
     width: '100%',
     height: '100%',
     backgroundColor: 'rgb(200, 200, 200)'
+  },
+  viewStyle2: {
+      flexDirection: 'column',
+      justifyContent: 'center',
+      alignItems: 'center'
+  },
+  imageStyle1: {
+    width: 500,
+    height: 300,
+    position: 'relative'
   }
   })
 
