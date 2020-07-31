@@ -114,11 +114,13 @@
 // export default App;
 
 import React from 'react';
-import { View, Text, TextInput, StyleSheet } from 'react-native';
+import tomatoes from './assets/tomatoes.jpg';
+import { View, Text, TextInput, StyleSheet, Image } from 'react-native';
 
 const App = () => {
   return (
     <View style={styles.viewStyle1}>
+    <Image source={require("./assets/tomatoes.jpg")}/>
     <Text>App</Text>
     </View>
     );
