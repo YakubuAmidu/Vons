@@ -166,6 +166,15 @@ const styles = StyleSheet.create({
   },
   textStyle1: {
     position: 'absolute',
+    color: '#fff',
+    fontWeight: '900',
+    fontSize: 50,
+    top: 134
+  },
+  textStyle2: {
+    position: 'absolute',
+    bottom: 56,
+    fontSize: 20,
     color: '#fff'
   }
   })
