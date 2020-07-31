@@ -122,8 +122,9 @@ const App = () => {
     <View style={styles.viewStyle1}>
     <View style={styles.viewStyle2}>
     <Image style={styles.imageStyle1} source={require("./assets/Tomatoes1.jpg")}/>
-    <TextInput placeholder="Search for product" type="text" />
-    <Text>App</Text>
+    <TextInput style={styles.textInput} placeholder="Search for Product" type="text" />
+    <Text style={styles.textStyle1}>VONS</Text>
+    <Text style={styles.textStyle2}>Welcome Back, Loist</Text>
     </View>
     </View>
     );
@@ -150,6 +151,22 @@ const styles = StyleSheet.create({
     width: 500,
     height: 300,
     position: 'relative'
+  },
+  textInput: {
+    backgroundColor: '#fff',
+    paddingLeft: 15,
+    paddingRight: 240,
+    paddingBottom: 10,
+    paddingTop: 10,
+    position: 'absolute',
+    fontWeight: '600',
+    top: 60,
+    borderRadius: 10,
+    fontSize: 15
+  },
+  textStyle1: {
+    position: 'absolute',
+    color: '#fff'
   }
   })
 
