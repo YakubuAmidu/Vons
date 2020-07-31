@@ -118,10 +118,18 @@ import { View, Text, TextInput, StyleSheet } from 'react-native';
 
 const App = () => {
   return (
-    <View>
+    <View style={styles.viewStyle1}>
     <Text>App</Text>
     </View>
     );
 };
+
+const styles = StyleSheet.create({
+  viewStyle1: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: 'rgb(200, 200, 200)'
+  }
+  })
 
 export default App;
