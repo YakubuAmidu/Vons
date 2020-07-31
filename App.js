@@ -150,9 +150,12 @@ const styles = StyleSheet.create({
   imageStyle1: {
     width: 500,
     height: 300,
-    position: 'relative'
+    position: 'relative',
+    resizeMode: 'cover'
   },
   textInput: {
+    marginLeft: 10,
+    marginRight: 10,
     backgroundColor: '#fff',
     paddingLeft: 15,
     paddingRight: 240,
@@ -160,7 +163,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     position: 'absolute',
     fontWeight: '600',
-    top: 60,
+    top: 70,
     borderRadius: 10,
     fontSize: 15
   },
