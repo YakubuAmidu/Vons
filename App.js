@@ -114,19 +114,27 @@
 // export default App;
 
 import React from 'react';
-import tomatoes from './assets/tomatoes.jpg';
+import Tomatoes1 from './assets/Tomatoes1.jpg';
 import { View, Text, TextInput, StyleSheet, Image } from 'react-native';
 
 const App = () => {
   return (
     <View style={styles.viewStyle1}>
-    <Image source={require("./assets/tomatoes.jpg")}/>
+    <Image style={styles.imageStyle1} source={require("./assets/Tomatoes1.jpg")}/>
     <Text>App</Text>
     </View>
     );
 };
 
 const styles = StyleSheet.create({
+  imageStyle1: {
+      // height: '30%',
+      // justifyContent: 'center',
+      justifyContent: 'center',
+        alignItems: 'center',
+        width: 450,
+        height: 300
+  },
   viewStyle1: {
     width: '100%',
     height: '100%',
