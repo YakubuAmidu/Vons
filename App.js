@@ -11,6 +11,7 @@ const App = () => {
     source={require("./assets/Tomatoes1.jpg")}/>
 
     <View>
+    <Text>Icon</Text>
     <TextInput placeholder="Search for Product" type="text" />
     <Text>VONS</Text>
     <Text>Welcome Back, Loist</Text>
