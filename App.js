@@ -10,8 +10,8 @@ const App = () => {
     style={{ width: 420, height: 300, resizeMode: 'cover', position: 'relative' }}
     source={require("./assets/Tomatoes1.jpg")}/>
 
-    <View>
-    <Text>Icon</Text>
+    <View style={{ position: 'absolute', top: 60, left: 140, width: 250 }}>
+    <Text style={{ color: '#fff', textAlign: 'right'}}>Icon</Text>
     <TextInput placeholder="Search for Product" type="text" />
     <Text>VONS</Text>
     <Text>Welcome Back, Loist</Text>
