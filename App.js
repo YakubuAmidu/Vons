@@ -6,7 +6,9 @@ const App = () => {
   return (
     <View>
 
-    <Image source={require("./assets/Tomatoes1.jpg")}/>
+    <Image
+    style={{ width: 420, height: 300, resizeMode: 'cover', position: 'relative' }}
+    source={require("./assets/Tomatoes1.jpg")}/>
 
     <View>
     <TextInput placeholder="Search for Product" type="text" />
