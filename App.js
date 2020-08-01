@@ -4,7 +4,7 @@ import { View, Text, TextInput, StyleSheet, Image } from 'react-native';
 
 const App = () => {
   return (
-    <View style={styles.viewStyle1}>
+    <View>
 
     <Image source={require("./assets/Tomatoes1.jpg")}/>
 
