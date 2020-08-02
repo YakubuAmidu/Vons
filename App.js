@@ -1,6 +1,6 @@
 import React from 'react';
 import Tomatoes1 from './assets/Tomatoes1.jpg';
-import { View, Text, TextInput, StyleSheet, Image } from 'react-native';
+import { View, Text, TextInput, StyleSheet, Image, Button } from 'react-native';
 
 const App = () => {
   return (
@@ -22,6 +22,12 @@ const App = () => {
 
     <Text style={{ textAlign: 'center', fontSize: 35, fontWeight: '900', color: '#fff', marginBottom: 30 }}>VONS</Text>
     <Text style={{ color: '#fff', fontSize: 20, textAlign: 'center'}}>Welcome Back, Loist!</Text>
+    </View>
+
+    <View style={{ paddingLeft: 15, paddingTop: 15, position: 'relative' }}>
+     <Text style={{ marginBottom: 10 }}>Reserve Delivery Time</Text>
+     <Text>Next Available: Today, 5 PM - 7 PM</Text>
+     <Text style={{ position: 'absolute', padding: 10, width: 120, textAlign: 'center',  marginLeft: 280, top: 20, backgroundColor: 'red', color: '#fff' }}>SELECT NOW</Text>
     </View>
 
     </View>
