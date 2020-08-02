@@ -30,12 +30,12 @@ const App = () => {
      <Text style={{ position: 'absolute', padding: 10, width: 120, textAlign: 'center',  marginLeft: 280, top: 20, backgroundColor: 'red', color: '#fff' }}>SELECT NOW</Text>
     </View>
 
-    <View style={{ marginLeft: 8, paddingTop: 30 }}>
+    <View style={{ marginLeft: 8, paddingTop: 30, position: 'relative'  }}>
     <Text style={{ fontWeight: 'bold', color: '#686868', marginBottom: 10 }}>Free Delivery</Text>
     <Text style={{ color: '#686868' }}>When you purchase 5 items width your</Text>
-    <Text>order of $99 or more</Text>
-    <Text>Select items Now</Text>
-    <Image source={require('./assets/meat.jpg')} />
+    <Text style={{ color: '#686868', marginBottom: 7}}>order of $99 or more</Text>
+    <Text style={{ color: 'red', textDecorationLine: 'underline', fontWeight: 'bold' }}>Select items Now</Text>
+    <Image style={{ width: 100, position: 'absolute', left: 290 }} source={require('./assets/meat.jpg')} />
     </View>
 
     </View>
