@@ -25,8 +25,8 @@ const App = () => {
     </View>
 
     <View style={{ paddingLeft: 15, paddingTop: 15, paddingBottom: 15, position: 'relative', borderBottomWidth: 25, borderColor: '#dcdcdc' }}>
-     <Text style={{ marginBottom: 10 }}>Reserve Delivery Time</Text>
-     <Text>Next Available: Today, 5 PM - 7 PM</Text>
+     <Text style={{ marginBottom: 10, color: '#686868', fontWeight: 'bold' }}>Reserve Delivery Time</Text>
+     <Text style={{ color: '#686868', fontWeight: 'bold' }}>Next Available: Today, 5 PM - 7 PM</Text>
      <Text style={{ position: 'absolute', padding: 10, width: 120, textAlign: 'center',  marginLeft: 280, top: 20, backgroundColor: 'red', color: '#fff' }}>SELECT NOW</Text>
     </View>
 
@@ -35,8 +35,9 @@ const App = () => {
     <Text style={{ color: '#686868' }}>When you purchase 5 items width your</Text>
     <Text style={{ color: '#686868', marginBottom: 7}}>order of $99 or more</Text>
     <Text style={{ color: 'red', textDecorationLine: 'underline', fontWeight: 'bold' }}>Select items Now</Text>
-    <Image style={{ width: 100, position: 'absolute', left: 290 }} source={require('./assets/meat.jpg')} />
+    <Image style={{ width: 100, position: 'absolute', left: 290, height: 130 }} source={require('./assets/meat.jpg')} />
     </View>
+    <Text>Popular items</Text>
 
     </View>
     );
