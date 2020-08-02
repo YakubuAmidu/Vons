@@ -31,7 +31,7 @@ const App = () => {
     </View>
 
     <View style={{ marginLeft: 8, paddingTop: 30 }}>
-    <Text style={{ fontWeight: 'bold' }}>Free Delivery</Text>
+    <Text style={{ fontWeight: 'bold', color: '#686868' }}>Free Delivery</Text>
     <Text>When you purchase 5 items width your</Text>
     <Text>order of $99 or more</Text>
     <Text>Select items Now</Text>
