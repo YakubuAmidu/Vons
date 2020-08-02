@@ -24,7 +24,7 @@ const App = () => {
     <Text style={{ color: '#fff', fontSize: 20, textAlign: 'center'}}>Welcome Back, Loist!</Text>
     </View>
 
-    <View style={{ paddingLeft: 15, paddingTop: 15, position: 'relative' }}>
+    <View style={{ paddingLeft: 15, paddingTop: 15, paddingBottom: 15, position: 'relative', borderBottomWidth: 25, borderColor: '#dcdcdc' }}>
      <Text style={{ marginBottom: 10 }}>Reserve Delivery Time</Text>
      <Text>Next Available: Today, 5 PM - 7 PM</Text>
      <Text style={{ position: 'absolute', padding: 10, width: 120, textAlign: 'center',  marginLeft: 280, top: 20, backgroundColor: 'red', color: '#fff' }}>SELECT NOW</Text>
