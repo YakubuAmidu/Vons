@@ -40,7 +40,7 @@ const App = () => {
 
     <View style={{ backgroundColor: '#dcdcdc', paddingTop: 10, paddingBottom: 10, paddingLeft: 8, flexDirection: 'row' }}>
     <Text style={{ fontSize: 20, color: '#686868', marginRight: 15 }}>Popular Items</Text>
-    <Text>View All</Text>
+    <Text style={{ color: 'red', top: 5, fontWeight: 'bold', textDecorationLine: 'underline' }}>View All</Text>
     </View>
 
     </View>
