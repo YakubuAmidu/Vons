@@ -31,8 +31,8 @@ const App = () => {
     </View>
 
     <View style={{ marginLeft: 8, paddingTop: 30 }}>
-    <Text style={{ fontWeight: 'bold', color: '#686868' }}>Free Delivery</Text>
-    <Text>When you purchase 5 items width your</Text>
+    <Text style={{ fontWeight: 'bold', color: '#686868', marginBottom: 10 }}>Free Delivery</Text>
+    <Text style={{ color: '#686868' }}>When you purchase 5 items width your</Text>
     <Text>order of $99 or more</Text>
     <Text>Select items Now</Text>
     <Image source={require('./assets/meat.jpg')} />
