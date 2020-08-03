@@ -54,7 +54,10 @@ const App = () => {
       <View>
 
       </View>
-      
+       <Text>U</Text>
+
+       <Text>Lucern farm eggs</Text>
+       <Text>Large Grad AA farm</Text>
     </View>
 
     </View>
