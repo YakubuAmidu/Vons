@@ -47,7 +47,7 @@ const App = () => {
 
      <View>
      <Text>U</Text>
-
+     <Image style={{ width: 70, height: 120}} source={require('./assets/chicken1.png')} />
      <Text>Signature farms chicken</Text>
      <Text>Breast Boneless Skinless</Text>
       </View>
@@ -55,7 +55,7 @@ const App = () => {
 
       </View>
        <Text>U</Text>
-
+       <Image style={{ width: 100, height: 50 }} source={require('./assets/eggs.png')} />
        <Text>Lucern farm eggs</Text>
        <Text>Large Grad AA farm</Text>
     </View>
