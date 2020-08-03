@@ -43,6 +43,20 @@ const App = () => {
     <Text style={{ color: 'red', top: 5, fontWeight: 'bold', textDecorationLine: 'underline' }}>View All</Text>
     </View>
 
+    <View>
+
+     <View>
+     <Text>U</Text>
+
+     <Text>Signature farms chicken</Text>
+     <Text>Breast Boneless Skinless</Text>
+      </View>
+      <View>
+
+      </View>
+      
+    </View>
+
     </View>
     );
 };
