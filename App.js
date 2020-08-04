@@ -43,21 +43,21 @@ const App = () => {
     <Text style={{ color: 'red', top: 5, fontWeight: 'bold', textDecorationLine: 'underline' }}>View All</Text>
     </View>
 
-    <View>
+    <View style={{ flexDirection: 'row' }}>
 
-     <View>
-     <Text>U</Text>
-     <Image style={{ width: 70, height: 120}} source={require('./assets/chicken1.png')} />
-     <Text>Signature farms chicken</Text>
-     <Text>Breast Boneless Skinless</Text>
+     <View style={{ borderRightWidth: 10, borderColor: '#dcdcdc', width: 220, height: 200, alignItems: 'center', position: 'relative' }}>
+     <Text style={{ color: 'red', fontWeight: '900', fontSize: 20, borderRadius: 20, marginLeft: -150, top: 20 }}>U</Text>
+     <Image style={{ width: 70, height: 100 }} source={require('./assets/chicken1.png')} />
+     <Text style={{ top: 20, fontWeight: 'bold', color: '#686868' }}>Signature farms chicken</Text>
+     <Text style={{ top: 20, color: '#686868', fontWeight: 'bold' }}>Breast Boneless Skinless</Text>
       </View>
-      <View>
 
-      </View>
-       <Text>U</Text>
-       <Image style={{ width: 100, height: 50 }} source={require('./assets/eggs.png')} />
-       <Text>Lucern farm eggs</Text>
-       <Text>Large Grad AA farm</Text>
+      <View style={{ alignItems: 'center', paddingLeft: 10, paddingRight: 10, paddingTop: 10, position: 'relative' }}>
+       <Text style={{ right: 50, color: 'red', fontWeight: '900', fontSize: 20 }}>U</Text>
+       <Image style={{ width: 100, height: 50, left: 60 }} source={require('./assets/eggs.png')} />
+       <Text style={{ top: 20 }}>Lucern farm eggs</Text>
+       <Text style={{ top: 20 }}>Large Grad AA farm</Text>
+    </View>
     </View>
 
     </View>
