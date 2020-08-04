@@ -55,9 +55,9 @@ const App = () => {
 
       <View style={{ alignItems: 'center', paddingLeft: 10, paddingRight: 10, paddingTop: 10, position: 'relative' }}>
        <Text style={{ right: 50, color: 'red', fontWeight: '900', fontSize: 20 }}>U</Text>
-       <Image style={{ width: 100, height: 50, left: 60 }} source={require('./assets/eggs.png')} />
-       <Text style={{ top: 20 }}>Lucern farm eggs</Text>
-       <Text style={{ top: 20 }}>Large Grad AA farm</Text>
+       <Image style={{ width: 100, height: 100, left: 50 }} source={require('./assets/eggs.png')} />
+       <Text style={{ top: 20, color: '#686868', color: '#686868', fontWeight: 'bold' }}>Lucern farm eggs</Text>
+       <Text style={{ top: 20, color: '#686868', fontWeight: 'bold' }}>Large Grad AA farm</Text>
     </View>
     </View>
 
