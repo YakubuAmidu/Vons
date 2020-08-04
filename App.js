@@ -50,6 +50,7 @@ const App = () => {
      <Image style={{ width: 70, height: 100 }} source={require('./assets/chicken1.png')} />
      <Text style={{ top: 20, fontWeight: 'bold', color: '#686868' }}>Signature farms chicken</Text>
      <Text style={{ top: 20, color: '#686868', fontWeight: 'bold' }}>Breast Boneless Skinless</Text>
+     <Text style={{ top: 20, color: '#686868', fontWeight: 'bold' }}>Sea salmon big catch ocean</Text>
       </View>
 
       <View style={{ alignItems: 'center', paddingLeft: 10, paddingRight: 10, paddingTop: 10, position: 'relative' }}>
